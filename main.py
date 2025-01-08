@@ -22,7 +22,7 @@ class Blockchain:
         self.chain = [self.create_genesis_block()]
     
     def create_genesis_block(self):
-        return Block(0, "0", "Genesis Block")
+        return Block(0, "0", "Genesis Bock")
     
     def add_block(self, data):
         previous_block = self.chain[-1]
